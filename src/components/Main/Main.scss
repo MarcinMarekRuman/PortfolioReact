@@ -1,0 +1,76 @@
+.container{
+  margin-bottom: 30px;
+  align-items: center;
+  min-height: 75vh;
+}
+
+.home{
+    margin-bottom: 400px;
+}
+
+.photoContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
+    width: 80vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image{
+    margin-left: 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.portfolioPhoto{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+    font-size: 35px;
+}
+
+.name{
+    text-align: start;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.addjustment{
+    text-align: end;
+    font-size: 20px;
+}
+
+
+.textContainer{
+    font-size: 1.5rem;
+    font-style: italic;
+    align-content: center;
+    text-align: center;
+    height: 100px;
+    color: beige;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: var(--main-color);
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    margin-top: 50px;
+  }
