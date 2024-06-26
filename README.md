@@ -1,5 +1,5 @@
 <h1>Portfolio</h1>
-<p>My CV in the form of website. When i created this website i learning framer-motion to animate website.</p>
+<p>My CV in the form of website.</p>
 
 <h2>Project is created with:</h2>
 <ul>
