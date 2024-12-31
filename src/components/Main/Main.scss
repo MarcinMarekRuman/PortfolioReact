@@ -1,4 +1,7 @@
 .container{
+  display: flex;
+  width: 100%;
+  height: auto;
   margin-bottom: 30px;
   align-items: center;
   min-height: 75vh;
@@ -18,9 +21,9 @@
 }
 
 .image{
-    margin-left: 30px;
     height: 200px;
     width: 200px;
+    min-width: 200px;
     border-radius: 50%;
 }
 
@@ -35,30 +38,35 @@
 
 .welcome{
     display: flex;
+    margin-left: 1rem;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: aqua;
     font-size: 35px;
 }
 
 .name{
-    text-align: start;
     font-size: 40px;
     font-weight: bold;
-    margin-left: 10px;
 }
 
-.addjustment{
-    text-align: end;
+.adjustment{
     font-size: 20px;
+    text-align: center;
 }
 
 
 .textContainer{
+    display: flex;
+    flex-direction: column;
     font-size: 1.5rem;
     font-style: italic;
-    align-content: center;
+    align-items: center;
     text-align: center;
-    height: 100px;
+    justify-content: center;
+    height: auto;
+    width: 100%;
     color: beige;
 }
 

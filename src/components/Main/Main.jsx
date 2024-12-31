@@ -23,8 +23,8 @@ const Main = () => {
           <h4>
             Hi i'm <span className="name">Marcin Ruman</span>
           </h4>
-          <span className="addjustment">
-            Aspiring Full-Stack or Back-End Developer
+          <span className="adjustment">
+            Aspiring Backend Developer
           </span>
         </div>
       </div>

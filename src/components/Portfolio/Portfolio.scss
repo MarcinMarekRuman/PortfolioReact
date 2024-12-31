@@ -2,12 +2,13 @@
     padding-top: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
-    height: 70vh;
+    height: auto;
+    width: 100%;
   
     .portfolioHeading {
       font-size: 3rem;
+      text-align: center;
       color: #fff;
       margin-bottom: 20px;
     }

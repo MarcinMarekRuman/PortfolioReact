@@ -1,13 +1,17 @@
 .container {
     display: flex;
+    width: 100%;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
+    min-height: auto;
+    margin-bottom: 20rem;
 
 
     h1 {
       font-size: 4rem;
+      text-align: center;
       color: #fff;
       text-transform: uppercase;
       margin: 50px;
@@ -19,17 +23,22 @@
     .aboutContainer {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-evenly;
       width: 100%;
   
-      @media screen and (max-width: 800px) {
-        flex-direction: row;
+      @media screen and (max-width: 1000px) {
+        flex-direction: column;
       }
 
       .strips{
+        display: flex;
+        margin-right: 2rem;
+        flex-direction: column;
         width: 33.3%;
         height: 100%;
-        
+        @media screen and (max-width: 800px) {
+          display: none;
+        }
       }
 
       .strip{
@@ -38,20 +47,19 @@
         border: 1px black solid;
         height: 5rem;
         background-color: var(--main-color);
-        margin-right: 2rem;
         justify-content: center;
       }
 
     .stripSpan{
         display: flex;
         align-self: center;
-     
     }
 
 
 
 
       .picture {
+        display: flex;
         width: 33.3%;
         height: 100%;
         @media screen and (max-width: 800px) {
