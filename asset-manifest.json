@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/PortfolioReact/static/css/main.5b4827ce.css",
+    "main.js": "/PortfolioReact/static/js/main.2d471a7b.js",
+    "static/media/photo1.jpg": "/PortfolioReact/static/media/photo1.7f9bfd38595af90ba09a.jpg",
+    "static/media/OnlineShop.PNG": "/PortfolioReact/static/media/OnlineShop.e0b932db374aca636cfe.PNG",
+    "static/media/portfolio.PNG": "/PortfolioReact/static/media/portfolio.48c8d6c04d0096b965cf.PNG",
+    "static/media/CV_Marcin_Ruman_IT.pdf": "/PortfolioReact/static/media/CV_Marcin_Ruman_IT.de0ec6373162da1ae474.pdf",
+    "static/media/photo2.jpg": "/PortfolioReact/static/media/photo2.611198df77e92ad745d6.jpg",
+    "static/media/todolist.PNG": "/PortfolioReact/static/media/todolist.01dd9f228df424163a18.PNG",
+    "index.html": "/PortfolioReact/index.html",
+    "main.5b4827ce.css.map": "/PortfolioReact/static/css/main.5b4827ce.css.map",
+    "main.2d471a7b.js.map": "/PortfolioReact/static/js/main.2d471a7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b4827ce.css",
+    "static/js/main.2d471a7b.js"
+  ]
+}
