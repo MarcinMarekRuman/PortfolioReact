@@ -24,7 +24,7 @@ const Contact = () => {
       >
         <h3>Contact me</h3>
         <span className="contactSectionSpan">
-          If you are interested, pleace contact me by e-mail or telephone.
+          If you are interested, please contact me by e-mail or telephone.
         </span>
         <div className="contactsSocials">
           <div className="contacts">

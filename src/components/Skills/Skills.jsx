@@ -66,11 +66,11 @@ const Skills = () => {
               transition={{duration: 0.5}}
           >
               <div className="skillsExp">
-                  <span>2017- 2022</span>
+                  <span>2017 - 2022</span>
                   <span>Work as waiter and delivery person </span>
               </div>
               <div className="skillsExp">
-                  <span>2022-Now</span>
+                  <span>2022 - Now</span>
                   <span>
             Working as Senior Maintenence Technician in LG Energy Solution
           </span>

@@ -5,7 +5,7 @@ import { AiFillHome } from "react-icons/ai";
 import { FaEnvelope } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
 import { motion } from "framer-motion";
-import CV from "../../assets/CV_Marcin_Ruman_IT.pdf";
+import CV from "../../assets/CV.pdf";
 
 const About = () => {
   return (
@@ -57,7 +57,7 @@ const About = () => {
           whileInView={{ y: [-250, 0], opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <img className="secoundPhoto" src={Portfolio} alt="Portfolio" />
+          <img className="secondPhoto" src={Portfolio} alt="Portfolio" />
         </motion.div>
         <motion.div
           className="aboutText"
@@ -66,11 +66,12 @@ const About = () => {
           transition={{ duration: 0.5 }}
         >
           <span className="aboutMe">
-            I'm Marcin. I'm 22 years old and looking for a job or internship on
-            Front-End or Back-End developer. At the moment, I have no commercial
-            experience. I'am self-taught who like lern new things and working in
-            a group. In industries other than IT, I learned teamwork and
-            conscientiousness in the activities performed.
+            Hello, my name is Marcin. I am 23 years old and I am looking for a job as
+            Programmer, I currently have no commercial experience
+            I am a self-taught person who likes to learn new things and work in
+            group. In industries other than IT, I learned teamwork and
+            conscientiousness in performed activities. Working as a Programmer is my dream,
+            which is why I am ready to constantly expand my knowledge and work hard to become better and better.
           </span>
           <div className="aboutInfo">
             <a href={CV} download rel="noopener noreferrer" target="_blank">

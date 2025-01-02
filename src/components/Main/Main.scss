@@ -21,10 +21,14 @@
 }
 
 .image{
-    height: 200px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
     min-width: 200px;
     border-radius: 50%;
+    @media screen and (max-width: 1050px) {
+        height: 200px;
+        width: 200px;
+    }
 }
 
 

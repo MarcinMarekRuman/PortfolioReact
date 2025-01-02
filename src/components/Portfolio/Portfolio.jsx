@@ -35,7 +35,7 @@ const Portfolio = () => {
             the concept of creating an online store,
             or rather a fully functional backend with a friendly frontend,
             was created, but it is less important than the backend.
-            This application is based on Node.js using the Express framework and the NoSql MongoDB database. The frontend was created in react and communication is based on REST API.
+            This application is based on Node.js using the Express framework and the NoSql MongoDB database. The frontend was created in React and communication is based on REST API.
           </span>
         </motion.div>
         <motion.div

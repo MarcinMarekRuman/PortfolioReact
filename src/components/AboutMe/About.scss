@@ -34,7 +34,7 @@
         display: flex;
         margin-right: 2rem;
         flex-direction: column;
-        width: 33.3%;
+        width: 33%;
         height: 100%;
         @media screen and (max-width: 800px) {
           display: none;
@@ -60,13 +60,15 @@
 
       .picture {
         display: flex;
-        width: 33.3%;
+        justify-content: center;
+        width: 34%;
         height: 100%;
         @media screen and (max-width: 800px) {
           width: 100%;
         }
-     .secoundPhoto {
+     .secondPhoto {
           width: 100%;
+          max-width: 700px;
           border-radius: 5px;
           
         }
@@ -76,7 +78,7 @@
         flex-direction: column;
         align-items: flex-start;
         color: #fff;
-        width: 33.3%;
+        width: 33%;
         height: 100%;
         margin: 2rem;
   
