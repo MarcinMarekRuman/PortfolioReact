@@ -12,7 +12,7 @@
  </ul>
  
 <h3>Run</h3>
-<p>Run project by clicking: [GitHub Pages](https://marcinmarekruman.github.io/PortfolioReact/)</p>
+<p>Run project by clicking: <a href="https://marcinmarekruman.github.io/PortfolioReact/">GitHub Pages</a></p>
 <p>Run project using npm: </p>
 
 ```
